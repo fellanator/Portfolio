@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "portfolio.css">
+    <title>Resume</title>
+    <style>
+         footer
+        {
+           position: absolute;
+           bottom:0;
+           width:100vw;
+          
+        }
+        body
+        {
+            background-image: url("images/flamingo.png");
+            background-size: 100vw 115vh;
+            
+        }
+    .icon
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: fit-content;
+       transition: 500ms cubic-bezier(.84,.23,.27,.97);
+        width:fit-content;
+        margin:0 auto;
+        animation-name: resu;
+        animation-iteration-count: infinite;
+        animation-duration: 7s;
+        
+    }
+    .icon:hover
+    {
+        transform: scale(2);
+    }
+    .container
+    {
+        display: flex;
+        height:65vh;
+        align-items: center;
+        
+    }
+
+    @keyframes resu
+    {
+        0%
+        {
+            transform: translateY(0);
+        }
+        30%
+        {
+            transform: translateY(-1vh);  
+        }
+        40%
+        {
+            transform: translateY(-1vh);
+        }
+        50%
+        {
+            transform: translateY(-1vh); 
+        }
+        
+        
+        100%
+        {
+            transform: translateY(0);
+        }
+        
+    }
+    
+    </style>
+</head>
+<body>
+    <nav class = "nav">
+        <img id = "logo" src = "images/Bryce (2).png" alt = "neon sun logo" title = "neon sun logo saying Bryce Jones">
+
+
+       <div class = "letters">
+           <img class = "flash" id = "img1" src = "images/B.png" alt = "B" width = "100px" height = "100px">
+           <img class = "flash" id = "img2" src = "images/R.png" alt = "R" width = "100px" height = "100px">
+           <img class = "flash" id = "img3" src = "images/Y.png" alt = "Y" width = "100px" height = "100px">
+           <img class = "flash" id = "img4" src = "images/C.png" alt = "C" width = "100px" height = "100px">
+           <img class = "flash" id = "img5" src = "images/E.png" alt = "E" width = "100px" height = "100px">
+        </div>
+       
+<ul>
+    <li><a href = "portfolio.html">Home</a></li>
+    <li><a href = "projects.html">Projects</a></li>
+    <li><a href = "resume.html">Resume</a></li>
+    <li><a href = "contact.html">Contact</a></li>
+
+
+</ul>
+    </nav>
+    <div class = "container">
+    <div class = "icon">
+<div>
+    
+    <a href = "images\Bryce Jones Coding Resume.pdf" download>
+       <img src = "images/resume-icon-png-15.png" alt = "resume icon" width = "100px" height = "130px">
+    </a>
+</div>
+</div>
+</div>
+
+    <footer>
+        <p>&copy; Bryce Jones Enterprises. All rights reserved.</p>
+    </footer>
+</body>
+</html>

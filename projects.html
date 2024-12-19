@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "portfolio.css">
+    
+    <title>Projects</title>
+
+    <style>
+        body
+        {
+            background-image: url("images/project-back1.png");
+        }
+        .projects
+        {
+            display: flex;
+            width:1500px;
+            padding:50px;
+            background-color: rgba(54, 28, 4, 0.8);
+            border: 3px solid purple;
+            border-radius: 30px;
+            align-items: center;
+            justify-content: center;
+            animation-name: contain;
+           animation-duration: 1.5s;
+        }
+        .projects div
+        {
+            background-color: rgb(75, 27, 119, 80%);
+            border: 2px solid rgb(40, 17, 100, 80%);
+            border-radius: 20px;
+            padding:50px;
+            width:50em;
+           
+            text-align: center;
+            margin:10px;
+            
+        }
+        .projects a
+        {
+            padding:10px;
+            background-color: rgb(255,92,0, 40%);
+            border: 1px solid black;
+            box-shadow: 0px 0px 10px  rgb(255,92,0, 40%);
+            color:orange;
+            display: inline-block;
+            border-radius: 10px;
+            
+        }
+        .projects p
+        {
+            transition: 300ms cubic-bezier(1,-1.08,0,1.54);
+           display: inline-block;
+           
+            
+        }
+        .projects a:link
+        {
+           
+           text-decoration: none;
+        }
+        .projects p:hover
+        {
+            transform:scale(1.5)
+        }
+        footer
+        {
+           position: absolute;
+           bottom:0;
+           width:100vw;
+        }
+        .container
+        {
+           height:45em;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+        }
+
+        @keyframes contain
+{
+    0%
+    {
+       transform: translateY(-20vh);
+       opacity: 0%;
+       background-color: white;
+       color:white;
+    }
+    90%
+    {
+        transform: translateY(0vh);
+        opacity: 100%;
+        
+    }
+    
+   
+}
+       
+    </style>
+</head>
+<body>
+    <nav class = "nav">
+        <img id = "logo" src = "images/Bryce (2).png" alt = "neon sun logo" title = "neon sun logo saying Bryce Jones">
+
+
+       <div class = "letters">
+           <img class = "flash" id = "img1" src = "images/B.png" alt = "B" width = "100px" height = "100px">
+           <img class = "flash" id = "img2" src = "images/R.png" alt = "R" width = "100px" height = "100px">
+           <img class = "flash" id = "img3" src = "images/Y.png" alt = "Y" width = "100px" height = "100px">
+           <img class = "flash" id = "img4" src = "images/C.png" alt = "C" width = "100px" height = "100px">
+           <img class = "flash" id = "img5" src = "images/E.png" alt = "E" width = "100px" height = "100px">
+        </div>
+       
+<ul>
+    <li><a href = "portfolio.html">Home</a></li>
+    <li><a href = "projects.html">Projects</a></li>
+    <li><a href = "resume.html">Resume</a></li>
+    <li><a href = "contact.html">Contact</a></li>
+
+
+</ul>
+    </nav>
+    <div class = "container">
+<div class = "projects">
+<div>
+    <h2 style>Modern Resume Template</h2>
+    <br>
+    <p><a href = "https://fellanator.github.io/Modern-Resume/" target = "_blank">View</a></p>
+</div>
+<div>
+    <h2>Blog Template</h2>
+    <br>
+    <p><a href = "https://fellanator.github.io/blog/" target = "_blank">View</a></p>
+</div>
+<div>
+    <h2>Photo Collage</h2>
+    <br>
+    <p><a href = "https://fellanator.github.io/collage/" target = "_blank">View</a></p>
+</div>
+
+<div>
+    <h2>Form Template</h2>
+    <br>
+    <p><a href = "https://fellanator.github.io/forms/" target = "_blank">View</a></p>
+</div>
+</div>
+</div>
+    
+
+    <footer>
+        <p>&copy; Bryce Jones Enterprises. All rights reserved.</p>
+    </footer>
+</body>
+</html>
